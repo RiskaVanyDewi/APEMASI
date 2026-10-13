@@ -1,0 +1,33 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Build output
+**/dist/
+**/build/
+
+# Logs and temporary files
+**/storage/logs/*
+**/npm-debug.log*
+**/.DS_Store
+
+# Data internal APEMASI
+/ANYAR Hitungan Apemasi 2025.xlsx
+# Frontend build output
+/front-end/dist/
+
+# Temporary debug scripts
+/backend/debug_buildings.php
+
+# Demo seeders with hardcoded credentials
+/backend/database/seeders/CreateJiminUserSeeder.php
+/backend/database/seeders/TestUserSeeder.php
+/backend/database/seeders/AdminUserSeeder.php
+
+/backend/database/seeders/data_import.json
